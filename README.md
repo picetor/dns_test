@@ -6,11 +6,12 @@
 ```
 wget -O local_dns_test.sh https://raw.githubusercontent.com/picetor/dns_test/main/local_dns_test.sh
 ```
----
+
 赋权&运行，默认[localhost:53]，参数见[用法](#用法)
 ```
 chmod +x local_dns_test.sh && ./local_dns_test.sh -c
 ```
+---
 - **`dns.sh`**：全面的 DNS 性能对比工具，支持 UDP、TCP、DoH、DoT 协议，预定义多家服务商，并生成对比表格。
 ```
 wget -O dns.sh https://raw.githubusercontent.com/picetor/dns_test/main/dns.sh && chmod +x dns.sh && ./dns.sh
