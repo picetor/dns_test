@@ -4,7 +4,12 @@
 
 - **`local_dns_test.sh`**：快速测试指定 DNS 服务器解析国内/国外域名的延迟（支持自定义上游）。
 ```
-wget -O local_dns_test.sh https://raw.githubusercontent.com/picetor/dns_test/main/local_dns_test.sh && chmod +x local_dns_test.sh && ./local_dns_test.sh
+wget -O local_dns_test.sh https://raw.githubusercontent.com/picetor/dns_test/main/local_dns_test.sh
+```
+---
+赋权&运行，默认[localhost:53]，更多参数[用法](###-用法)
+```
+chmod +x local_dns_test.sh && ./local_dns_test.sh -c
 ```
 - **`dns.sh`**：全面的 DNS 性能对比工具，支持 UDP、TCP、DoH、DoT 协议，预定义多家服务商，并生成对比表格。
 ```
