@@ -7,7 +7,7 @@
 wget -O local_dns_test.sh https://raw.githubusercontent.com/picetor/dns_test/main/local_dns_test.sh
 ```
 ---
-赋权&运行，默认[localhost:53]，更多参数[用法](###用法)
+赋权&运行，默认[localhost:53]，更多参数[用法](#用法)
 ```
 chmod +x local_dns_test.sh && ./local_dns_test.sh -c
 ```
