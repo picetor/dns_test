@@ -11,6 +11,14 @@ wget -O local_dns_test.sh https://raw.githubusercontent.com/picetor/dns_test/mai
 ```
 chmod +x local_dns_test.sh && ./local_dns_test.sh -c
 ```
+前瞻急急急
+```
+root@:~# bash local_dns_test.sh -h
+用法: local_dns_test.sh [-c 国内DNS] [-f 国外DNS]
+  -c  指定国内域名使用的 DNS 服务器 IP
+  -f  指定国外域名使用的 DNS 服务器 IP
+  默认均使用 127.0.0.1
+```
 ---
 - **`dns.sh`**：全面的 DNS 性能对比工具，支持 UDP、TCP、DoH、DoT 协议，预定义多家服务商，并生成对比表格。
 ```
